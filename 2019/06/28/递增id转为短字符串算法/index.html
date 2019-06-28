@@ -8,17 +8,17 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>递增id转为短字符串算法 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="背景：很多页面url中常常有包含递增的id，一般是某种业务信息的主键，比如用户id。这样会存在信息被穷举爬走的安全风险。 例如：https://profile.mywebsite.com/user/**1646244346** 解决方案：可以把url中的id转为可逆，不连续的短字符串，例如： https://xxx.aliexpress.com/user/**UoKcn6zjK6Macxd** 这">
+  <meta name="description" content="背景1：很多页面url中常常有包含递增的id，一般是某种业务信息的主键，比如用户id。这样会存在信息被穷举爬走的安全风险。 例如：https://profile.mywebsite.com/user/**1646244346** 解决方案：可以把url中的id转为可逆，不连续的短字符串，例如： https://xxx.aliexpress.com/user/**UoKcn6zjK6Macxd**">
 <meta property="og:type" content="article">
 <meta property="og:title" content="递增id转为短字符串算法">
 <meta property="og:url" content="http://yoursite.com/2019/06/28/递增id转为短字符串算法/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="背景：很多页面url中常常有包含递增的id，一般是某种业务信息的主键，比如用户id。这样会存在信息被穷举爬走的安全风险。 例如：https://profile.mywebsite.com/user/**1646244346** 解决方案：可以把url中的id转为可逆，不连续的短字符串，例如： https://xxx.aliexpress.com/user/**UoKcn6zjK6Macxd** 这">
+<meta property="og:description" content="背景1：很多页面url中常常有包含递增的id，一般是某种业务信息的主键，比如用户id。这样会存在信息被穷举爬走的安全风险。 例如：https://profile.mywebsite.com/user/**1646244346** 解决方案：可以把url中的id转为可逆，不连续的短字符串，例如： https://xxx.aliexpress.com/user/**UoKcn6zjK6Macxd**">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-06-28T06:01:24.144Z">
+<meta property="og:updated_time" content="2019-06-28T06:10:05.865Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="递增id转为短字符串算法">
-<meta name="twitter:description" content="背景：很多页面url中常常有包含递增的id，一般是某种业务信息的主键，比如用户id。这样会存在信息被穷举爬走的安全风险。 例如：https://profile.mywebsite.com/user/**1646244346** 解决方案：可以把url中的id转为可逆，不连续的短字符串，例如： https://xxx.aliexpress.com/user/**UoKcn6zjK6Macxd** 这">
+<meta name="twitter:description" content="背景1：很多页面url中常常有包含递增的id，一般是某种业务信息的主键，比如用户id。这样会存在信息被穷举爬走的安全风险。 例如：https://profile.mywebsite.com/user/**1646244346** 解决方案：可以把url中的id转为可逆，不连续的短字符串，例如： https://xxx.aliexpress.com/user/**UoKcn6zjK6Macxd**">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -174,7 +174,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="背景："><a href="#背景：" class="headerlink" title="背景："></a>背景：</h3><p>很多页面url中常常有包含递增的id，一般是某种业务信息的主键，比如用户id。这样会存在<strong>信息被穷举爬走</strong>的安全风险。</p>
+        <h3 id="背景1："><a href="#背景1：" class="headerlink" title="背景1："></a>背景1：</h3><p>很多页面url中常常有包含递增的id，一般是某种业务信息的主键，比如用户id。这样会存在<strong>信息被穷举爬走</strong>的安全风险。</p>
 <p>例如：<a href="https://profile.mywebsite.com/user/**1646244346" target="_blank" rel="noopener">https://profile.mywebsite.com/user/**1646244346</a>**</p>
 <h3 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h3><p>可以把url中的id转为可逆，不连续的短字符串，例如：</p>
 <p><a href="https://xxx.aliexpress.com/user/**UoKcn6zjK6Macxd" target="_blank" rel="noopener">https://xxx.aliexpress.com/user/**UoKcn6zjK6Macxd</a>**</p>
@@ -305,16 +305,6 @@
 </article>
 
   
-<nav id="article-nav">
-  
-  
-    <a href="/2019/06/28/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
